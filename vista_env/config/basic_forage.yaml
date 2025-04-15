@@ -1,0 +1,4 @@
+grid_size: 10
+max_steps: 50
+num_agents: 2
+roles: ['gatherer', 'defender']
