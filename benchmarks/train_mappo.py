@@ -43,6 +43,9 @@
 import os
 import csv
 import random
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from vista_env.core.env import VISTAEnv
 
 def greedy_action(pos, resources, grid_size):
